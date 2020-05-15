@@ -1,7 +1,7 @@
 # Re-worked co-SVD
 
 ## Dataset
-The dataset used in this work is [MovieLens dataset](https://grouplens.org/datasets/movielens/). There are three sets of datasets obtained from [GroupLens](https://grouplens.org).
+The dataset used in this work is from the [MovieLens dataset](https://grouplens.org/datasets/movielens/). There are three sets of datasets obtained from [GroupLens](https://grouplens.org).
 
 
 `ml-latest-small` MovieLens 100K dataset (Year 2016) (Uploaded to this repository)
