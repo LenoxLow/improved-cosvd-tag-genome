@@ -1,4 +1,4 @@
-# Re-worked co-SVD
+# Re-produced co-SVD
 
 ## Dataset
 The dataset used in this work is from the [MovieLens dataset](https://grouplens.org/datasets/movielens/). There are three sets of datasets obtained from [GroupLens](https://grouplens.org).
