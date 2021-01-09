@@ -10,7 +10,9 @@ The dataset used in this work is from the [MovieLens dataset](https://grouplens.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 MovieLens 100K latest dataset (Year 2018) (Uploaded to this repository)
 
-`ml10M100K` MovieLens 10M Dataset (Link: https://grouplens.org/datasets/movielens/10m/)
+`ml10M100K` 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+MovieLens 10M Dataset (Link: https://grouplens.org/datasets/movielens/10m/)
 
 ## Installation
 
