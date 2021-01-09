@@ -26,9 +26,11 @@ pip install surprise
 
 This work is also required [cython](https://cython.org/)
 
-After the package installed, the folder of the (surprise) package need to be replaced with the surprise folder provided in this repository.
+After the package installed, the folder of the (Surprise) package need to be replaced with the surprise folder provided in this repository.
 
 ## Usage
+To load the dataset
+Please refer to Surprise Documentation (https://surprise.readthedocs.io/)
 
 To initial the CoSVD
 ```python
