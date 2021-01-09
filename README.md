@@ -30,6 +30,7 @@ After the package installed, the folder of the (Surprise) package need to be rep
 
 ## Usage
 To load the dataset
+
 Please refer to Surprise Documentation (https://surprise.readthedocs.io/)
 
 To initial the CoSVD
