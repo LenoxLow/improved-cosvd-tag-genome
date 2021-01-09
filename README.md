@@ -10,7 +10,11 @@ The dataset used in this work is from the [MovieLens dataset](https://grouplens.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 MovieLens 100K latest dataset (Year 2018) (Uploaded to this repository)
 
+`ml10M100K` MovieLens 10M Dataset (Link: https://grouplens.org/datasets/movielens/10m/)
+
 ## Installation
+
+The Python version of this work is 3.7
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install [Surprise package](http://surpriselib.com/).
 
@@ -20,22 +24,14 @@ pip install surprise
 
 This work is also required [cython](https://cython.org/)
 
+After the package installed, the folder of the (surprise) package need to be replaced with the surprise folder provided in this repository.
+
 ## Usage
-To generate the User-Tag Matrix & Item-Tag Matrix as the work proposed by [Luo et al.](https://www.sciencedirect.com/science/article/abs/pii/S0957417418307231)
-```python
-# 'p_ut' is User-Tag Matrix
-# 'f_it' is Item-Tag Matrix
-# 'tags' is the tags data with tag internal id
-# 'ratings' is a joined table of rating data and tag data
 
-import matrices_generation as mg
-p_ut, f_it, tags, ratings = mg.generateTagsOrigin(rate, raw_tags)
-```
-
-To initial the co-SVD
+To initial the CoSVD
 ```python
-algo = co_SVD(n_epochs=40, lr_all=0.006, n_factors=40
-              , p_ut=p_ut, f_it=f_it, tags=tags, ratings=ratings)
+tags = pd.read_csv('path\to\tags.csv')
+algo = CoSVD(verbose=False, n_epochs=65, lr_all=0.0028, n_factors=40, tags=tags, random_state=123)
 ```
 
 Model Training & Evaluation
